@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <!-- materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- javascript -->
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Hangman</a>
+        </div>
+    </nav>
+
+    <section class="container">
+            <div class="col m12">
+
+                <div class="row guesses-wrapper">
+                    <!-- # of guesses left -->
+                    <div>Number of guesses left</div>
+                    <div id="guesses-left">15</div>
+                </div>
+                <div class="row word-wrapper">
+                    <!-- Word to be guessed -->
+                    <div id="word-to-guess"></div>
+                    <div id="start-game">Press ENTER to start game!</div>
+                </div>
+                <div class="row letters-wrapper">
+                    <!-- Letters already guessed -->
+                    <div>Letters you have already guessed</div>
+                    <div id="letters-guessed"></div>
+                    <div id="letter-error"></div>
+                </div>
+
+            </div>
+        </div>
+        <!-- end row -->
+    </section>
+
+</body>
+
+</html>
